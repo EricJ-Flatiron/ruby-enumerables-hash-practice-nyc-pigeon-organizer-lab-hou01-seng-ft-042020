@@ -17,6 +17,7 @@ def nyc_pigeon_organizer(data)
   pigeons = {}
   data.each do |attributes , inner_hash|
     attributes.each do |inner_attributes , array_of_strings|
+      
     end
   end
 
