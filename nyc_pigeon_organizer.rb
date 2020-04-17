@@ -9,9 +9,9 @@ def nyc_pigeon_organizer(data)
       array_of_names << color
     end
   end
+  array_of_names = array_of_names.uniq
   
   
-  data.first
 
 
 
