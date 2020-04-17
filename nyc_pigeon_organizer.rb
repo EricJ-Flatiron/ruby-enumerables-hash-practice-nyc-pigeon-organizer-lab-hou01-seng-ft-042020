@@ -20,7 +20,13 @@ def nyc_pigeon_organizer(data)
       array_of_strings.each do |name|
         
         if !(pigeons.has_key?(name))
-          pigeons
+          pigeons[name] = {}
+        end
+        if !(pigeons[name].has_key(attributes))
+          pigeons[name][attributes] = []
+        end
+        
+        
       end
     end
   end
