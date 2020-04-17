@@ -26,6 +26,8 @@ def nyc_pigeon_organizer(data)
           pigeons[name][attributes] = []
         end
         if (pigeons[name][attributes].include?(inner_attributes))
+          pigeons[name][attributes] << inner_attributes.to_s
+        end
         
       end
     end
