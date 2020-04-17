@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   
   pigeons = {}
   data[:color].each do |color|
-    color.each do
+    color.each do |array|
       array_of_names << color
     end
   end
