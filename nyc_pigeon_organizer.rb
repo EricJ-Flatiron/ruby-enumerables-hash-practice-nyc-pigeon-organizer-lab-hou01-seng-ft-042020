@@ -11,6 +11,8 @@ def nyc_pigeon_organizer(data)
   end
   array_of_names = array_of_names.uniq
   
+  data.each do |
+  
   
 
 
